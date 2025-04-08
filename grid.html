@@ -1,0 +1,87 @@
+<style>
+    .container{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr ;
+
+    }
+    .Header{
+        background-color: skyblue;
+        padding: 5px;
+        margin: 2px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .Middle{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+    }
+    .maincontainer{
+        background-color: greenyellow;
+        color: black;
+        height: 100px;
+        margin: 2px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .sidebar{
+        background-color: violet;
+        color: black;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+        display: grid;
+
+    }
+    .Footer{
+        background-color: blue;
+        padding: 5px;
+        margin: 2px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .twin{
+        background-color: orange;
+        height: 100px;
+        margin: 2px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+</style>
+<div class="container">
+    <div class="Header">header</div>
+    <div class="Middle">
+        <div class="one">
+            <div class="maincontainer">Main container</div>
+            <div class="sidebar">Side bar</div>
+
+        </div>
+        <div class="two">
+            <div class="twin">twin</div>
+            <div class="twin">twin</div>
+        </div>
+    </div>
+    <div class="Footer">footer</div>
+    
+</div>
